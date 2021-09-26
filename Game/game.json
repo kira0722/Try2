@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "objeto": "Botella",
+      "caneca": "Azul",
+      "src": "/images/botella.png"
+    },
+    { "id": 2, "objeto": "Papel", "caneca": "Gris", "src": "/images/papel.png" },
+    {
+      "id": 3,
+      "objeto": "Manzana",
+      "caneca": "Verde",
+      "src": "/images/manzana.png"
+    },
+    {
+      "id": 4,
+      "objeto": "Sandwich",
+      "caneca": "Verde",
+      "src": "/images/sandwich.png"
+    },
+    {
+      "id": 5,
+      "objeto": "Periodico",
+      "caneca": "Gris",
+      "src": "/images/periodico.png"
+    }
+  ]
+  

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+h1{
+    text-align: center;
+    font-size: 38px;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: black; 
+}
+
+nav ul li{
+    color: white;
+}
+
+button{
+    position: relative;
+    left: 1259px;
+    width: 90px;
+    height: 40px;
+}  
+
+section{
+    background-color: aquamarine;
+    text-align: center;    
+    height: 700px;
+    width: 160px;
+    grid-row: 2;
+    position: absolute;
+    left: 0px;
+    font-size: 24px;
+}
+
+.cuerpo h2{
+    font-size: 22px;
+    position: absolute;
+    left: 628px;
+
+}
+
+
+.cuerpo p{
+    font-size: 22px;
+    position: absolute;
+    left: 200px;
+    top: 130px;
+}
+
+.cuerpo video{
+    position: absolute;
+    top: 310px;
+    left: 300px;
+}
+
+body{
+    background-color: gray;
+}
+
+section ul li a{
+    color: black;
+}
+.cuerpo .text{
+    font-size: 26px;
+    position: absolute;
+    top: 250px;
+    left: 430px;
+}

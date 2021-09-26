@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image.jpg" href="../images/log.png" />
+
+    <script type="text/javascript">
+      function Register() {
+        var form = document.form;
+        var user = form.usuario.value;
+        var pass = form.contraseña.value;
+
+        if (user == "kira22@gmail.com" && pass == "123") {
+          alert("Registrado satisfactoriamente, regrese e inicie sesion");
+        } else {
+          alert(
+            "Falta informacion O informacion incorrecta, vuelva a verificar"
+          );
+        }
+      }
+    </script>
+  </head>
+
+  <body background="../images/forest2.jpg">
+    <h1>Environmental Games</h1>
+
+    <div class="formulario">
+      <form name="form" action="#" method="POST">
+        <input type="email" name="usuario" placeholder="Ingrese su correo" />
+
+        <input
+          type="password"
+          name="contraseña"
+          placeholder="ingresa tu contraseña"
+        />
+      </form>
+
+      <p></p>
+
+      <button onclick="Register();">Registrarse</button>
+
+      <p></p>
+
+      <button onclick="window.location.href='../index.html'">
+        volver atras
+      </button>
+
+      <h2>MARIPOSAS</h2>
+
+      <p class="mari">
+        Las mariposas son indicadores de la calidad medioambiental y de la salud
+        de los ecosistemas. Son un elemento muy importante en las cadenas
+        tróficas y resultan fundamentales para muchas especies de aves,
+        murciélagos y mamíferos insectívoros. ... Las zonas ricas en mariposas,
+        son ricas también en otros invertebrados.
+      </p>
+
+      <p class="img"><img src="../images/mariposa.jpg" /></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  position: relative;
+  left: 1259px;
+  width: 90px;
+  height: 40px;
+}
+
+nav ul {
+  background-color: black;
+  list-style-type: none;
+}
+
+nav ul li {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.back {
+  position: relative;
+  left: -100px;
+  width: 90px;
+  height: 40px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.bee {
+  position: relative;
+  left: 420px;
+  top: 20px;
+}
+
+p {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+.mur {
+  position: relative;
+  top: auto;
+  left: 420px;
+}
+
+h5 {
+  font-size: 28px;
+  position: relative;
+  top: auto;
+}
+
+.plan {
+  position: relative;
+  top: auto;
+  left: 420px;
+}
+
+.h2{
+  text-align: center;
+  font-size: 38px;
+}
+
+body{
+    background-color: gray;
+}

@@ -1,0 +1,39 @@
+.formulario{
+    text-align: center;
+}
+
+.decoracion h1{
+    font-size: 38px;
+    text-align: center;
+
+}
+
+.decoracion p{
+    text-align: center;
+    font-size: 38px;
+}
+
+body{
+    height: 460px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+video{
+    position: absolute;
+    right: 430px;
+    top: 300px;
+}
+
+h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.img{
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+nav ul {
+  background-color: black;
+  list-style-type: none;
+  position: relative;
+  top: 0px;
+}
+
+nav li {
+  color: white;
+}
+
+.back {
+  position: relative;
+  left: -30px;
+  top: 40px;
+  width: 90px;
+  height: 40px;
+  background-color: grey;
+}
+
+.out {
+  position: relative;
+  left: 1215px;
+  width: 100px;
+  height: 40px;
+  background-color: grey;
+}
+
+.decor{
+  text-align: center;
+  color: black;
+  font-size: 26px;
+}
+
+
+h2{
+  text-align: right;
+  color: red;
+
+}
+
+h3{
+  text-align: right;
+  color: blue;
+}

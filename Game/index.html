@@ -1,0 +1,198 @@
+<html lang="en"><head>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/vendors~app~embed~sandbox~sandbox-startup.bcc15d438.chunk.js"></script>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/vendors~app~embed~sandbox-startup.6e3433fd3.chunk.js"></script>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/sandbox-startup.be47690fe.js"></script><link href="https://codesandbox.io/static/js/babel.7.12.12.min.js" rel="prefetch" as="script">
+
+<script src="//codesandbox.io/static/browserfs12/browserfs.min.js" type="text/javascript"></script>
+
+<script>
+  window.process = BrowserFS.BFSRequire('process');
+  window.Buffer = BrowserFS.BFSRequire('buffer').Buffer;
+</script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#000000">
+
+	<link rel="manifest" href="/manifest.json">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>React App</title>
+}
+
+
+
+</style><style id="/src/components/Principal/Principal.css:-css" type="text/css">div.contenedorPrincipal1 {
+  display: flex;
+  width: 100%;
+  height: 900px;
+}
+
+div.contenedorTexto {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p.textoPrincipal {
+  text-align: initial;
+  width: 1000px;
+}
+
+ul {
+  margin-top: 20px;
+  padding: 0px;
+  list-style: none;
+}
+
+.textoUl {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+h5.error {
+  color: #ff0000;
+}
+
+</style><style id="/src/components/Lateral/Lateral.css:-css" type="text/css">div.contenedorLateral {
+  width: 200px;
+  background-color: #55bedd;
+}
+
+ul.lista {
+  width: 170px;
+  position: fixed;
+}
+
+</style><style id="/src/components/UserPost/UserPost.css:-css" type="text/css">div.UserPostContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.botonCrearReseña {
+  background: #741cde !important;
+  border: 1px solid #000000 !important;
+}
+
+</style><style id="/src/components/Register/Register.css:-css" type="text/css">.botones {
+  background: #8cc63f !important;
+  border: 1px solid #8cc63f !important;
+  width: 100%;
+}
+.botones:hover {
+  background: #61892c !important;
+  border: 1px solid #61892c !important;
+}
+</style><style id="/src/components/Login/Login.css:-css" type="text/css">.botones {
+  background: #8cc63f !important;
+  border: 1px solid #8cc63f !important;
+  width: 100%;
+}
+.botones:hover {
+  background: #61892c !important;
+  border: 1px solid #61892c !important;
+}
+
+</style><style id="/src/components/Posts/Posts.css:-css" type="text/css">
+
+</style><style id="/src/components/Posts/component/Post.css:-css" type="text/css">.botonCrearReseña {
+  background: #741cde !important;
+  border: 1px solid #000000 !important;
+}
+
+</style><style id="/src/components/Material/Material.css:-css" type="text/css">div.contenedorPrincipal {
+  display: flex;
+  width: 100%;
+  height: 100% !important;
+}
+
+div.contenedorMaterial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+</style><style id="/src/components/Quiz/Quiz.css:-css" type="text/css">div.contenedorPrincipalQuiz {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+div.contenedorQuiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+div.canecas {
+  display: flex;
+}
+
+div.pregunta {
+  width: 100%;
+  margin-bottom: 50px;
+}
+</style><style id="/src/components/Game/Game.css:-css" type="text/css">div.contenedorPrincipalGame {
+  display: flex;
+  width: 100%;
+  height: 850px;
+}
+
+div.contenedorGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+img.caneca {
+  margin-right: 20px;
+}
+
+img.imgItem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+body {
+  background-color: green;
+}
+
+</style><script charset="utf-8" src="https://codesandbox.io/static/js/0.84205e20b.chunk.js"></script><script charset="utf-8" src="https://codesandbox.io/static/js/2.345146d6e.chunk.js"></script><script charset="utf-8" src="https://codesandbox.io/static/js/7.a1fbf49ba.chunk.js"></script></head>
+
+<body>
+	<noscript>
+		You need to enable JavaScript to run this app.
+	</noscript>
+	<div id="root"><div class="App"><div class="NavbarContainer"><a href="/"><img class="logo" src="/images/logo.png" alt="logoProyecto"></a><div class="buttons"><a href="/login"><button class="navbarButton">Login</button></a><a href="/register"><button class="navbarButton">Register</button></a></div></div><div class="contenedorPrincipalGame"><div class="contenedorLateral"><ul class="lista"><li> <a class="textoUl" href="/material">Estudiar</a></li><li> <a class="textoUl" href="/quiz">Quiz</a></li><li><a class="textoUl" href="/juego">Juego</a></li></ul></div><div class="contenedorGame"><h5 class="mb-5">Separe los residuos de forma correcta.</h5><div class="canecas"><img class="caneca" src="/images/canecaAzul.png" alt="canecaAzul"><img class="caneca" src="/images/canecaGris.png" alt="canecaGris"><img class="caneca" src="/images/canecaVerde.png" alt="canecaVerde"></div><div class="item"><h5 class="mt-4">¿Donde va el objeto?</h5><img class="imgItem" src="/images/botella.png" alt="item"></div><a href="/publicar"><button type="button" class="mt-5 mb-2 botones btn btn-primary">Dejar Comentario</button></a></div></div></div></div>
+
+  <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/vendors~app~codemirror-editor~monaco-editor~sandbox.5ca13c344.chunk.js"></script>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/common-sandbox.01ff5f8d0.chunk.js"></script>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/vendors~app~sandbox.711ae7310.chunk.js"></script>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/vendors~sandbox.68401d1f1.chunk.js"></script>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/default~app~embed~sandbox.6f2a32afe.chunk.js"></script>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/sandbox.902d8a0fd.js"></script>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/banner.be879265d.js"></script>
+    <script crossorigin="" type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.be960f43b.js"></script>
+  
+
+<iframe id="sb__open-sandbox86" style="
+      position: fixed;
+      margin: 0;
+      padding: 0;
+      bottom: 16px;
+      right: 16px;
+      border: none;
+      width: 118px;
+      height: 36px;
+      z-index: 9999999999999;
+    "></iframe></body></html>

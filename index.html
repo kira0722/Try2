@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image.jpg" href="images/log.png"/>
+
+    <script type="text/javascript">
+      function sesion() {
+        var form = document.form;
+        var user = form.usuario.value;
+        var pass = form.contraseña.value;
+
+        if (user == "kira22" && pass == "123") { /* usuario = kira22 ; contraseña = 123 en el inicio de sesion*/
+          alert("Bienvenido");
+          window.location="Main/index.html";
+        } else {
+          alert("Datos erroneos");
+        }
+      }
+    </script>
+  </head>
+
+  <body background="images/forest2.jpg">
+    <div class="decoracion">
+      <h1>Environmental Games</h1>
+
+      <p>
+        cuidemos el medio ambiente, es trabajo de todos
+      </p>
+    </div>
+
+    <div class="formulario">
+      <form name="form" action="#" method="POST">
+        <input type="text" name="usuario" placeholder="inresa tu usuario" />
+
+        <input
+          type="password"
+          name="contraseña"
+          placeholder="ingresa tu contraseña"
+        />
+      </form>
+
+      <p></p>
+
+      <button onclick="sesion();">Iniciar sesion</button>
+
+      <p></p>
+
+      <button onclick="window.location.href='Register/Register.html'">
+        Registrarse
+      </button>
+    </div>
+
+    <h2>"Si morimos, te llevaremos con nosotras"</h2>
+
+    <p class="img">    <img src="images/bee.jpg">    </p>
+
+
+  </body>
+</html>
